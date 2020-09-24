@@ -1,0 +1,43 @@
+header {
+  background-color: #FFF;
+  padding: 16px;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  margin-right: 25px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25px;
+  height: 32px;
+  width: 32px;
+  border: 1px solid #FFEBE0;
+  border-radius: 50%;
+}
+
+/* .social li{
+  margin-left: 25px;
+  height: 32px;
+  text-align: center;
+  width: 32px;
+  padding: 6px;
+  border: 1px solid #FFEBE0;
+  border-radius: 50%;
+} */
+
+/* border: 1px solid #FFEBE0; */
