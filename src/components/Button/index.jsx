@@ -2,9 +2,9 @@ import React from 'react';
 
 import './style.css';
 
-function Button() {
+function Button({ text }) {
   return (
-    <button>CALL TO ACTION</button>
+    <button className="actionButton">{text}</button>
   );
 }
 

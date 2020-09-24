@@ -21,7 +21,7 @@ function Header() {
         </div>
 
         <div>
-          <Button />
+          <Button text="CALL TO ACTION"/>
           <ul className="social">
             <li> <a href="https://www.facebook.com/yoohdigital" target="_blank" rel="noopener noreferrer"> <img src={fbLogo} alt="Botão do Facebook"/> </a> </li>
             <li> <a href="https://www.instagram.com/yoohdigital/" target="_blank" rel="noopener noreferrer"> <img src={igLogo} alt="Botão do Instagram"/> </a> </li>
