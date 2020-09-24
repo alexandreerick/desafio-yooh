@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from './components/Header';
 import Carousel from './components/Carousel';
+import HorizontalList from './components/HorizontalList';
 
 import './style.css';
 
@@ -27,6 +28,7 @@ function App() {
     <>
       <Header />
       <Carousel slides={slides} />
+      <HorizontalList />
     </>
   );
 }
