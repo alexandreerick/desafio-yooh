@@ -16,6 +16,7 @@
   font-weight: bold;
   color: #72808E;
   margin-bottom: 16px;
+  text-transform: capitalize;
 }
 
 .pokemonCardContent {
