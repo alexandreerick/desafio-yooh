@@ -65,11 +65,11 @@
 }
 
 .nav .prevButton {
-  left: 0;
+  left: 5px;
 }
 
 .nav .nextButton {
-  right: 0;
+  right: 5px;
 }
 
 .carouselHeroImg {

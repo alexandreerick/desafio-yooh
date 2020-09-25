@@ -7,7 +7,7 @@ import heroImg from '../../assets/hero-banner__image.png';
 import arrowLeft from '../../assets/arrow-left.svg';
 import arrowRight from '../../assets/arrow-right.svg';
 
-function Carousel({ slides }) {
+function Carousel(props) {
   const [active, setActive] = useState(0);
   const [position, setPosition] = useState(0);
   const contentRef = useRef();
@@ -22,14 +22,14 @@ function Carousel({ slides }) {
   }
 
   function handleNextSlide() {
-    if(active < slides.length - 1) setActive(active + 1);
+    if(active < props.slides.length - 1) setActive(active + 1);
   }
 
   return (
     <div className="container">
       <section className={styles.carouselContainer}>
         <div ref={contentRef} style={{ transform: `translateX(${position}px)` }} className={styles.carouselContent}>
-          {slides.map(slide => (
+          {props.slides.map(slide => (
             <div style={{ backgroundColor: `${slide.backgroundColor}` }} className={styles.carouselItem} key={slide.id}>
               <div className={styles.carouselInfo}>
                 <h2>{slide.lightTitle}</h2>

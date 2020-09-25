@@ -16,7 +16,7 @@ function Header() {
     <header>
       <div className="container">
         <div>
-          <a href="" className="hamburger"> <img src={menu} alt="Menu Hamburger"/> </a>
+          <a href="/" className="hamburger"> <img src={menu} alt="Menu Hamburger"/> </a>
           <a href="/"> <img src={headerLogo} alt="Teste Web"/> </a>
         </div>
 
