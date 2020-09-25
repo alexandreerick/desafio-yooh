@@ -45,6 +45,7 @@ function Carousel(props) {
           ))}
         </div>
         <nav className={styles.nav}>
+          {/* Aqui não consegui posicionar os botões exatamente igual ao layout */}
           <button className={styles.prevButton} onClick={handlePrevSlide}><img src={arrowLeft} alt="Flecha para esquerda"/></button>
           <button className={styles.nextButton} onClick={handleNextSlide}><img src={arrowRight} alt="Flecha para direita"/></button>
         </nav>

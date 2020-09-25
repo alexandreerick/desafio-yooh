@@ -24,13 +24,15 @@ function HorizontalList() {
   return (
     <div className="container">
       <h2 className={styles.title}>Últimos pokemons</h2>
-      <div className={styles.list}>
-        {lastPokemons.map(pokemon => (
-          <div key={pokemon.id} className={styles.listItem}>
-            <img src={pokemon.sprites && pokemon.sprites.other[`official-artwork`].front_default} alt={pokemon.name}/>
-            <p>{pokemon.name}</p>
-          </div>
-        ))}
+      <div className={styles.listContainer}>
+        <div className={styles.list}>
+          {lastPokemons.map(pokemon => (
+            <div key={pokemon.id} className={styles.listItem}>
+              <img src={pokemon.sprites && pokemon.sprites.other[`official-artwork`].front_default} alt={pokemon.name}/>
+              <p>{pokemon.name}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

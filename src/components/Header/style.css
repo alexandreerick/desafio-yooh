@@ -1,12 +1,23 @@
 header {
   background-color: #FFF;
   padding: 16px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 
 header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media (max-width: 800px) {
+  header div button {
+    display: none;
+  }
 }
 
 .hamburger {

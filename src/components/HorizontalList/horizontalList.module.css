@@ -6,10 +6,25 @@
 }
 
 .list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+}
+
+@media (max-width: 609px) {
+  .list {
+    grid-template-columns: repeat(2, minmax(190px, 1fr));
+  }
+
+  .listContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+.listContainer {
+  margin-bottom: 59px;
 }
 
 .listItem {
@@ -37,3 +52,5 @@
   line-height: 19px;
   color: #FF6B18;
 }
+
+
