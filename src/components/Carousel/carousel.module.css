@@ -31,11 +31,11 @@
 
 .carouselItem h1 {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .carouselItem p {
-  width: 271px;
+  max-width: 271px;
   margin-bottom: 52px;
 }
 
@@ -60,7 +60,6 @@
 .nav .nextButton,
 .nav .prevButton {
   position: absolute;
-  z-index: 99;
   top: 40%;
 }
 
@@ -79,5 +78,21 @@
 }
 
 .carouselHeroImg img {
-  width: 470px;
+  max-width: 470px;
+  min-width: 320px;
+  width: 100%;
+}
+
+@media (max-width: 850px) {
+  .carouselItem {
+    position: unset;
+  }
+
+  .carouselItem h1 {
+    font-size: 32px;
+  }
+
+  .carouselHeroImg {
+    position: unset;
+  }
 }
