@@ -40,3 +40,7 @@ header div {
   border: 1px solid #FFEBE0;
   border-radius: 50%;
 }
+
+.social li a {
+  padding: 8px;
+}

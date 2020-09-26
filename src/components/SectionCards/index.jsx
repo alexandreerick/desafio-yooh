@@ -107,8 +107,8 @@ function SectionCards() {
           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, a lacus, aliquam mattis est enim, molestie diam. Consequat blandit nec, venenatis dignissim suspendisse in facilisi molestie duis. Tempor sed quis phasellus arcu, posuere. Elementum ut tellus nisi, nunc ac etiam ut lectus porta. Et morbi enim vestibulum sodales sed ullamcorper dapibus accumsan. Faucibus pharetra, et at orci, vel blandit odio. Volutpat urna fusce quisque libero pellentesque in. Augue tempor vitae ullamcorper bibendum. <br/><br/> Quis facilisi nulla id est natoque sed ut consectetur. Id eleifend eros ullamcorper et. Diam, ultrices pellentesque urna, integer a lectus. Sit sollicitudin ac egestas amet netus. Elit vitae dolor cursus cursus.</span>
           <Button text="CALL TO ACTION" />
         </div>
-        <img className={styles.heroImg} src={pikachuImg} alt="Pikachu"/>
-        <img className={styles.pokebolaImg} src={pokebolaImg} alt="Pokebola"/>
+        {/* <img className={styles.heroImg} src={pikachuImg} alt="Pikachu"/>
+        <img className={styles.pokebolaImg} src={pokebolaImg} alt="Pokebola"/> */}
       </div>
     </div>
   );

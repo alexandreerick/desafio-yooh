@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Carousel from './components/Carousel';
 import HorizontalList from './components/HorizontalList';
 import SectionCards from './components/SectionCards';
+import Footer from './components/Footer';
 
 import './style.css';
 
@@ -31,6 +32,7 @@ function App() {
       <Carousel slides={slides} />
       <HorizontalList />
       <SectionCards />
+      <Footer />
     </>
   );
 }
