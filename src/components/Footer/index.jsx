@@ -18,8 +18,10 @@ function Footer() {
             <img src={logoImg} alt="Logo Teste Web"/>
 
             <div className={styles.footerLinks}>
-              <img src={mailImg} alt="Símbolo de uma carta"/>
-              <span>email@testeweb.com</span>
+              <span>
+                <img src={mailImg} alt="Símbolo de uma carta"/>
+                email@testeweb.com
+              </span>
               <ul className="social">
                 <li> <a href="https://www.facebook.com/yoohdigital" target="_blank" rel="noopener noreferrer"> <img src={fbLogo} alt="Botão do Facebook"/> </a> </li>
                 <li> <a href="https://www.instagram.com/yoohdigital/" target="_blank" rel="noopener noreferrer"> <img src={igLogo} alt="Botão do Instagram"/> </a> </li>
@@ -30,7 +32,9 @@ function Footer() {
           </div>
 
           <div className={styles.downFooter}>
+            <img className={styles.testeWebDownFooterImg} src={logoImg} alt="Logo Teste Web"/>
             <span>2020 © Todos os direitos reservados.</span>
+            <span className={styles.devBy}>Desenvolvido por</span>
             <img src={yoohLogo} alt="Logo da YOOH"/>
           </div>
         </div>

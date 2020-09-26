@@ -1,3 +1,10 @@
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .sectionContainer {
   display: flex;
   flex-wrap: wrap;
@@ -46,14 +53,16 @@
 }
 
 .yellowBoard p {
-  color: #FF6B18 !important;
+  color: #FF6B18;
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 22px;
 }
 
 .yellowBoard span {
-  width: 445px;
+  text-align: justify;
+  max-width: 445px;
+  min-width: 312px;
   font-weight: 400;
   font-size: 16px;
   color: #1A1A1A;
@@ -62,12 +71,45 @@
 
 .heroImg {
   position: absolute;
-  right: -10%;
+  right: -5%;
   bottom: -10%;
+
 }
 
 .pokebolaImg {
   position: absolute;
   bottom: 0;
-  right: 25%;
+  right: 28%;
+}
+
+@media (max-width: 1132px) {
+  .sectionGrid {
+    margin: 0 auto;
+  }
+
+  .yellowBoard {
+    height: 100%;
+    min-height: 500px;
+    margin: 24px auto 0 auto;
+  }
+
+  .yellowBoard button{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .yellowBoard {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    padding: 0;
+  }
+
+  .yellowBoard {
+    width: 100%;
+  }
 }

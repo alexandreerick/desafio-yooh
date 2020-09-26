@@ -21,14 +21,14 @@ footer {
   align-items: center;
 }
 
-.footerLinks > img {
-  margin-right: 14px;
-}
-
 .footerLinks > span {
   color: #666;
   font-weight: bold;
   font-size: 16px;
+}
+
+.footerLinks > span > img {
+  margin-right: 14px;
 }
 
 .downFooter {
@@ -43,4 +43,44 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
+}
+
+.testeWebDownFooterImg {
+  display: none;
+}
+
+.devBy {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .footerContainer {
+    align-items: center;
+  }
+
+  .footerLinks {
+    flex-direction: column;
+  }
+
+  .footerLinks > span {
+    margin-bottom: 24px;
+  }
+
+  .upFooter > img {
+    display: none;
+  }
+
+  .downFooter {
+    flex-direction: column;
+  }
+
+  .testeWebDownFooterImg {
+    display: initial;
+    margin-bottom: 16px;
+  }
+
+  .devBy {
+    display: initial;
+    margin-top: 42px;
+  }
 }
