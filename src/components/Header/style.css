@@ -44,3 +44,9 @@ header div {
     display: none;
   }
 }
+
+@media (max-width: 420px) {
+  .headerLogo {
+    height: 15px;
+  }
+}
